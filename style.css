@@ -4,6 +4,9 @@ body {
 
 .section-1 {
     background-color: #1f2937;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 48px;
 }
 
 .section-3 {
@@ -14,15 +17,43 @@ body {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    margin-top: 32px;
+    margin-bottom: 0;
 }
 
 .header ul,
 .hero p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 0;
+    margin-bottom: 4px;
 }
 
 .header p {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
 }
