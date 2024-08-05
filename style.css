@@ -19,14 +19,15 @@ body {
 }
 
 .header ul,
-.hero p {
+.hero p,
+.action p {
     font-size: 18px;
     color: #e5e7eb;
     margin-top: 0;
-    margin-bottom: 4px;
 }
 
-.header p {
+.header p,
+.action h2 {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
@@ -52,10 +53,13 @@ ul {
     justify-content: space-between;
 }
 
-.hero button {
+button {
     background-color: #3882f6;
-    color: white;
-    border-radius: 5px;
+    color: #f9faf8;
+    border: #f9faf8 3px solid;
+    border-radius: 10px;
+    padding: 20px 45px;
+    font-weight: bolder;
 }
 
 .hero img {
@@ -117,4 +121,18 @@ ul {
 .quote,
 .author {
     padding: 0 430px;
+}
+
+.action {
+    display: flex;
+    margin: 125px 250px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 65px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action button {
+    flex-shrink: 0;
 }
