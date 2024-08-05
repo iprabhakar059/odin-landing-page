@@ -4,9 +4,9 @@ body {
 
 .section-1 {
     background-color: #1f2937;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-bottom: 48px;
+    padding-left: 260px;
+    padding-right: 260px;
+    padding-bottom: 165px;
 }
 
 .hero h1 {
@@ -28,11 +28,14 @@ body {
 .header p {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 155px;
+    align-items: baseline;
 }
 
 ul {
@@ -52,6 +55,13 @@ ul {
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
+}
+
+.hero img {
+    height: 300px;
+    width: 650px;
+    flex-shrink: 0;
+    margin-left: 70px;
 }
 
 .section-2 h2 {
