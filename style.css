@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .section-1 {
@@ -93,14 +94,27 @@ ul {
 }
 
 
-.quote {
+.section-3 {
     background-color: #e5e7eb;
+    padding-top: 170px;
+    padding-bottom: 135px;
 }
 
 
-.quote p {
+.quote {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    text-align: center;
+    padding: 0 430px;
+}
+
+.author {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.quote,
+.author {
+    padding: 0 430px;
 }
