@@ -74,11 +74,29 @@ ul {
 .information {
     display: flex;
     justify-content: center;
+    gap: 60px;
 }
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    flex-shrink: 0;
+    border: 5px #3882f6 solid;
+    border-radius: 10px;
+}
+
 
 .quote {
     background-color: #e5e7eb;
 }
+
 
 .quote p {
     font-size: 36px;
