@@ -18,7 +18,7 @@ body {
     margin-bottom: 0;
 }
 
-.header ul,
+.links,
 .hero p,
 .action p,
 .footer {
@@ -40,12 +40,16 @@ body {
     align-items: baseline;
 }
 
-ul {
-    list-style-type: none;
+.links {
     margin: 0;
     padding: 0;
     display: flex;
     gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .hero {
